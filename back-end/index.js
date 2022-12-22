@@ -1,14 +1,15 @@
 const express = require("express");
+const dotenv = require("dotenv");
 const app = express();
 const axios = require("axios");
 const cors = require("cors");
 app.use(cors());
 app.use(express.json());
-const url =
-  "https://samurai-s-ramen-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json";
+dotenv.config();
 
-const url2 =
-  "https://samurai-s-ramen-default-rtdb.asia-southeast1.firebasedatabase.app/order.json";
+const url = process.env.url1;
+
+const url2 = process.env.url2;
 
 app.get("/", (req, res) => {
   axios
