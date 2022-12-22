@@ -1,0 +1,27 @@
+{"meals":{
+  "m1":{
+    "description": "Finest fish and veggies",
+    "id": "m1",
+    "name": "Sushi",
+    "price": 249
+  },
+  "m2":{
+    "description": "A german specialty!",
+    "id": "m2",
+    "name": "Schnitzel",
+    "price": 199
+  },
+  "m3":{
+    "description": "American, raw, meaty",
+    "id": "m3",
+    "name": "Barbecue Burger",
+    "price": 279
+  },
+  "m4":{
+    "description": "Tulunad da delicacy",
+    "id": "m4",
+    "name": "Kori Rotti",
+    "price": 290
+  }
+}
+}
