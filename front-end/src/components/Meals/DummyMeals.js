@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/";
-
+// const url = "http://localhost:5000/";
+const url = "https://samurais-ramen.onrender.com/";
 const getMeals = () => {
   const req = axios
     .get(url)
